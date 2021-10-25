@@ -181,20 +181,6 @@ renderizarProductos();
 calcularTotal();
 renderizarCarrito();
 
-//////////
-
-//var imagenes = document.getElementById('img');
-//if(imagenes&& imagenes.style) {
-//    imagenes.style.height = '100px';
-//    imagenes.style.width = '50px';
-//}
-//
-
-
-
-
-
-
 
 //jquery///
 
@@ -203,9 +189,13 @@ $(document).ready(function () {
     $("body,html").css({ background: "#000"});
     $("img").css({width:"160px",height:"190px"})
     $("#sponsor").css({width:"500px",height:"400px"})
+    $(".modoOscuro").css({background:"#333",fontFamily:"'Rampart One', cursive",
+  border:"none"})
 
   $(".modoOscuro").click(function () {
     $("div").css({ background: "#000", color:"white"});
     $("#carrito").css({color:"#000"});
+
 });
+  
 });

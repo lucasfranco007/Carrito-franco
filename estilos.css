@@ -49,9 +49,10 @@ div{
 
 
 footer img{
-    display: flex;
+    display:inline-block;
     justify-content: center;
     margin: auto;
-    width: 600px;
+    width: 300px;
     height: 400px;
+    margin-right:330px;    
 }
