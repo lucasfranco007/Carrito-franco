@@ -4,13 +4,13 @@ const baseDeDatos = [
     id: 1,
     nombre: "Heineken",
     precio: 170,
-    imagen: "../media/heine.png",
+    imagen: "../media/heine.PNG",
   },
   {
     id: 2,
     nombre: "Grolsh",
     precio: 150,
-    imagen: "../media/grolshh.png",
+    imagen: "../media/grolshh.PNG",
   },
   {
     id: 3,
