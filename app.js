@@ -32,9 +32,64 @@ const baseDeDatos = [
   },
   {
     id: 6,
+    nombre: "Heraclito",
+    precio: 1000,
+    imagen: "../media/heraclito.png",
+  },
+  {
+    id: 7,
+    nombre: "Gin Buenos Aires",
+    precio: 1000,
+    imagen: "../media/buenosaires.png",
+  },
+
+  {
+    id: 8,
+    nombre: "Beefeater",
+    precio: 1000,
+    imagen: "../media/beeteaater.png",
+  },
+  {
+    id: 9,
+    nombre: "Santa julia",
+    precio: 1000,
+    imagen: "../media/blanco.png",
+  },
+  {
+    id: 10,
+    nombre: "Vino Toro",
+    precio: 1000,
+    imagen: "../media/toro.png",
+  },
+  {
+    id: 11,
+    nombre: "Viñas del Balvo",
+    precio: 1000,
+    imagen: "../media/viña.png",
+  },
+  {
+    id: 12,
+    nombre: "Combo 1",
+    precio: 1000,
+    imagen: "../media/combo1.png",
+  },
+  {
+    id: 13,
+    nombre: "Combo 2",
+    precio: 1000,
+    imagen: "../media/combo2.png",
+  },
+  {
+    id: 14,
     nombre: "Absolut",
     precio: 1000,
     imagen: "../media/vodka.png",
+  },
+  {
+    id: 15,
+    nombre: "SKYY",
+    precio: 1000,
+    imagen: "../media/SKY.png",
   },
 ];
 
@@ -185,17 +240,22 @@ renderizarCarrito();
 //jquery///
 
 $(document).ready(function () {
+  //EVENTO PARA ANIMAR EL TITULO PRINCIPAL///
   $(".titulo").animate({ "font-size": "60px" }, 5000),
+  /// MODIFACANDO EL BODY /////
     $("body,html").css({ background: "#000"});
+    // TAMAÑO DE IMAGENES ///
     $("img").css({width:"160px",height:"190px"})
+    // SE MODIFICA EL FOOTER ///
     $("#sponsor").css({width:"500px",height:"400px"})
+    /// BOTON DE MODO OSCURO ///
     $(".modoOscuro").css({background:"#333",fontFamily:"'Rampart One', cursive",
   border:"none"})
-
+    /// FUNCION DEL BOTON DE  DARKMODE////
   $(".modoOscuro").click(function () {
     $("div").css({ background: "#000", color:"white"});
     $("#carrito").css({color:"#000"});
 
 });
-  
+
 });
