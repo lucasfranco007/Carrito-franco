@@ -33,50 +33,50 @@ const baseDeDatos = [
   {
     id: 6,
     nombre: "Heraclito",
-    precio: 1000,
+    precio: 1200,
     imagen: "../media/heraclito.png",
   },
   {
     id: 7,
     nombre: "Gin Buenos Aires",
-    precio: 1000,
+    precio: 2000,
     imagen: "../media/buenosaires.png",
   },
 
   {
     id: 8,
     nombre: "Beefeater",
-    precio: 1000,
+    precio: 2700,
     imagen: "../media/beeteaater.png",
   },
   {
     id: 9,
     nombre: "Santa julia",
-    precio: 1000,
+    precio: 300,
     imagen: "../media/blanco.png",
   },
   {
     id: 10,
     nombre: "Vino Toro",
-    precio: 1000,
+    precio: 250,
     imagen: "../media/toro.png",
   },
   {
     id: 11,
     nombre: "Viñas del Balvo",
-    precio: 1000,
+    precio: 200,
     imagen: "../media/viña.png",
   },
   {
     id: 12,
     nombre: "Combo 1",
-    precio: 1000,
+    precio: 830,
     imagen: "../media/combo1.png",
   },
   {
     id: 13,
     nombre: "Combo 2",
-    precio: 1000,
+    precio: 750,
     imagen: "../media/combo2.png",
   },
   {
@@ -88,7 +88,7 @@ const baseDeDatos = [
   {
     id: 15,
     nombre: "SKYY",
-    precio: 1000,
+    precio: 500,
     imagen: "../media/SKY.png",
   },
 ];
