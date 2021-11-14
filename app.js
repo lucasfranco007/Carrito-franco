@@ -10,7 +10,7 @@ const baseDeDatos = [
     id: 2,
     nombre: "Grolsh",
     precio: 150,
-    imagen: "../media/grolshh.PNG",
+    imagen:"../media/grolshh.PNG",
   },
   {
     id: 3,
